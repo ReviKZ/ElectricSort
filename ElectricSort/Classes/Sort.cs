@@ -1,20 +1,14 @@
 ﻿using ElectricSort.Enums;
-using ElectricSort.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ElectricSort.Classes
 {
     /// <summary>
-    /// Tömb műveletek osztálya
+    /// Tömb műveletek rendezési osztálya. [Statikus osztály, ezért nincs szükség konstruktorra mert nem példányosítható]
     /// </summary>
     public static class Sort
     {
         /// <summary>
-        /// A tömb rendezési metódusa szám esetén növekvő sorrendben. [Statikus osztály, ezért nincs szükség konstruktorra mert nem példányosítható]
+        /// A tömb rendezési metódusa szám esetén növekvő sorrendben.
         /// </summary>
         /// <param name="array">A rendezni kívánt tömb.</param>
         /// <param name="sortBy">A rendezési szempont.</param>
@@ -61,7 +55,7 @@ namespace ElectricSort.Classes
         }
 
         /// <summary>
-        /// A tömb rendezési metódusa szám esetén csökkenő sorrendben. [Statikus osztály, ezért nincs szükség konstruktorra mert nem példányosítható]
+        /// A tömb rendezési metódusa szám esetén csökkenő sorrendben.
         /// </summary>
         /// <param name="array">A rendezni kívánt tömb.</param>
         /// <param name="sortBy">A rendezési szempont.</param>
@@ -108,7 +102,7 @@ namespace ElectricSort.Classes
         }
 
         /// <summary>
-        /// A tömb rendezési metódusa szöveg esetén növekvő sorrendben. [Statikus osztály, ezért nincs szükség konstruktorra mert nem példányosítható]
+        /// A tömb rendezési metódusa szöveg esetén növekvő sorrendben.
         /// </summary>
         /// <param name="array">A rendezni kívánt tömb.</param>
         /// <returns>A rendezett lista</returns>
@@ -134,7 +128,7 @@ namespace ElectricSort.Classes
         }
 
         /// <summary>
-        /// A tömb rendezési metódusa szöveg esetén csökkenő sorrendben. [Statikus osztály, ezért nincs szükség konstruktorra mert nem példányosítható]
+        /// A tömb rendezési metódusa szöveg esetén csökkenő sorrendben.
         /// </summary>
         /// <param name="array">A rendezni kívánt tömb.</param>
         /// <returns>A rendezett lista</returns>
